@@ -1,5 +1,4 @@
-# 🧠 MLAT-Net: Multilevel Attention with Transformer for Medical Image Segmentation
-
+# 🧠 MLAT-Net: A novel hybrid version of multilevel attention with transformer for medical image segmentation
 > **Author:** Pratik Pal  
 > **Degree:** M.Tech in Computer & Systems Sciences  
 > **Institution:** Jawaharlal Nehru University (JNU), New Delhi, India  
@@ -45,8 +44,8 @@ MLAT-Net builds on a U-Net-style encoder-decoder backbone with integrated self-a
 | Dataset        | Modality         | Images | Task                  |
 |----------------|------------------|--------|------------------------|
 | ISIC-2018      | Dermoscopy       | 2596   | Skin Lesion Segmentation |
-| Kvasir-SEG     | Endoscopy        | 1000   | Gastrointestinal Polyp |
-| CVC-ClinicDB   | Colonoscopy      | 612    | Polyp Detection        |
+| Kvasir-SEG     | Endoscopy        | 1000   | Gastrointestinal Polyp Detection |
+| CVC-ClinicDB   | Colonoscopy      | 612    | Polyp Detection |
 
 ---
 
@@ -117,7 +116,6 @@ MLAT-Net builds on a U-Net-style encoder-decoder backbone with integrated self-a
 Although MLAT-Net shows strong potential, it has some constraints:
 - 🐢 **High computational cost** due to multi-level attention.
 - 🔄 Decoder channel mismatches in rare cases.
-- ❌ No adaptive positional encoding.
 - ⚙️ Not optimized for 3D medical imaging.
 
 ### 🚀 Future Enhancements:
@@ -137,13 +135,3 @@ Although MLAT-Net shows strong potential, it has some constraints:
 
 ---
 
-## 🤝 Connect
-
-If you're interested in this research, feel free to reach out or collaborate on future improvements.  
-📫 **Email:** pratik25_scs@jnu.ac.in  
-🌐 **LinkedIn:** [Your Profile]  
-🔗 **ORCID:** [0000-0002-6849-9974](https://orcid.org/0000-0002-6849-9974)
-
----
-
-## 📌 Citation
