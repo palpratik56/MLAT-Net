@@ -103,7 +103,7 @@ MLAT-Net builds on a U-Net-style encoder-decoder backbone with integrated self-a
 ## 🌐 Visual Results
 
 ### Example Predictions:
-![Predictions](https://github.com/user/repo/assets/sample_predictions.png)
+![Predictions](results/CVC_predictions_adam_max.png)
 
 ### Feature Maps (Decoder):
 - CVC: Adagrad + Avg Pool  
