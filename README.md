@@ -104,11 +104,11 @@ MLAT-Net builds on a U-Net-style encoder-decoder backbone with integrated self-a
 
 ### Example Predictions:
 ![Predictions](results/CVC_predictions_adam_max.png)
+![Predictions](results/ISIC_predictions_sgd_avg.png)
+
+### Feature Maps (Decoder):
 ![Predictions](results/ISIC_feature_maps_sgd_avg.png)
 ![Predictions](results/Kvasir_feature_maps_adam_max.png)
-### Feature Maps (Decoder):
-
-
 ---
 
 ## 🔍 Limitations & Future Work
