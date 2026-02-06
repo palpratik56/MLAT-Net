@@ -1,6 +1,7 @@
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
+import pandas as pd
 
 def plot_conv_curves(training_metrics, validation_metrics, optim, data):
     # Set style for better visualization
@@ -71,7 +72,6 @@ def plot_dice_score(training_metrics, validation_metrics, optim, data):
     
     plt.show()
 
-import pandas as pd
 def save_metrics(training_metrics, validation_metrics, optim, dataset):
     # Create a DataFrame with all metrics
     data = {
