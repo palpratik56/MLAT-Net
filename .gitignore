@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/raw/
+data/processed/
+*.jpg
+*.png
+*.jpeg
+!docs/images/*.png
+
+# Results
+results/checkpoints/*.pth
+results/figures/*.png
+results/metrics/*.csv
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
