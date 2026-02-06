@@ -1,16 +1,5 @@
-from .dataset import CVCDataset, KVASDataset, ISICDataset
 from torch.utils.data import DataLoader, Dataset, random_split
-from torchvision import transforms
 import torch
-
-data_transforms = transforms.Compose([
-    transforms.Resize((256, 256)),transforms.ToTensor(),
-    ])
-
-# Initialize datasets
-# cv_dataset = CVCDataset(cv_image_folder, cv_mask_folder,transform=data_transforms)
-# kv_dataset = KVASDataset(kv_image_folder, kv_mask_folder,transform=data_transforms)
-dataset = ISICDataset(image_folder, mask_folder,transform=data_transforms)
 
 # Split the dataset into train, validation, and test sets
 def split_data(dataset):
