@@ -6,3 +6,4 @@ scikit-learn>=1.3.0
 matplotlib>=3.7.0
 Pillow>=9.5.0
 tqdm>=4.65.0
+ptflops>=0.7.1
