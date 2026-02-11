@@ -2,8 +2,6 @@ This directory contains representative experimental results and the model archit
 
 Specifically, this folder includes:
 
-- Quantitative performance metrics (e.g., Dice Score, IoU, Precision, Recall, and Accuracy)
-
 - Training and validation convergence curves
 
 - Visual segmentation outputs and qualitative comparisons
