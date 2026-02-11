@@ -111,8 +111,8 @@ MLAT-Net follows an **encoder-decoder backbone** with enhanced multi-level atten
 
 ### Decoder Feature Maps Across Stages
 
-![Decoder Maps ISIC](results/ISIC_decoder_maps_multi_models.png)
-![Decoder Maps Kvasir](results/Kvasir_decoder_maps_multi_models.png)
+![Decoder Maps Kvasir](results/MaxPooling/Kvasir_decoder_maps_RMSprop.png)
+![Decoder Maps CVC](results/CVC_decoder_maps_Adam.png)
 
 📌 Feature maps illustrate how MLAT-Net captures **progressively refined semantic and spatial information** at each decoder stage.
 
