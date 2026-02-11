@@ -106,14 +106,15 @@ MLAT-Net follows an **encoder-decoder backbone** with enhanced multi-level atten
 
 ### Example Predictions
 
-![CVC Predictions](results/CVC_predictions_adam_max.png)
-![ISIC Predictions](results/ISIC_predictions_sgd_avg.png)
+![Kvasir Predictions](results/AveragePooling/Kvasir_predictions_RMSprop.png)
+![CVC Predictions](results/MaxPooling/CVC_predictions_Adam.png)
+![ISIC Predictions](results/MaxPooling/ISIC_predictions_RMSProp.png)
 
 ### Decoder Feature Maps Across Stages
 
 ![Decoder Maps Kvasir](results/MaxPooling/Kvasir_decoder_maps_RMSprop.png)
 ![Decoder Maps CVC](results/MaxPooling/CVC_decoder_maps_RMSprop.png)
-![Decoder Maps ISIC](results/AveragePooling/ISIC_decoder_maps_RMSprop.png)
+![Decoder Maps ISIC](results/AveragePooling/ISIC_decoder_maps_RMSProp.png)
 
 📌 Feature maps illustrate how MLAT-Net captures **progressively refined semantic and spatial information** at each decoder stage.
 
