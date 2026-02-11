@@ -120,15 +120,9 @@ MLAT-Net follows an **encoder-decoder backbone** with enhanced multi-level atten
 
 ---
 
-## 🔍 Limitations & Future Work
-
-* 🐢 High computational cost due to multi-level attention
-* 🔄 Rare channel mismatches in decoder
-* ⚙️ Not yet optimized for 3D medical imaging
 
 ### 🚀 Future Enhancements
 
-* Incorporate **skip-attention** and **adaptive encoding**
 * Extend to **volumetric (3D) imaging** like MRI and CT
 * Optimize for **real-time clinical inference**
 
